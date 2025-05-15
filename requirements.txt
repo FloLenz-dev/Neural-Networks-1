@@ -1,0 +1,6 @@
+# Python >=3.10.12,<3.13
+duckduckgo-search>=8.0.0,<8.1
+fastai>=2.7.19,<2.8
+fastcore>=1.7.29,<1.8
+fastdownload>=0.0.7,<0.1
+pandas>=2.2.3,<2.3

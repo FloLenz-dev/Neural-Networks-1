@@ -47,6 +47,8 @@ def plot_metric_grid(df: pd.DataFrame, metric: str, output_file: Path):
         subplot.set_ylabel(metric.replace("_", " ").capitalize())
         subplot.grid(True)
 
+        subplot.set_xticks(range(0, int(seed_data_subset["epoch"].max()) + 1, 10))
+
     for j in range(len(photo_counts), len(subplots)):
         all_plots_figure.delaxes(subplots[j])
 
